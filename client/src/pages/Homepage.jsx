@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import Header from "../Header";
+import Footer from "../Footer";
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
+import GetImages from "../GetImages";
 
 export default function Homepage() {
     const slides = [
@@ -48,7 +50,7 @@ export default function Homepage() {
           <div>
           
             <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group'>
-            <h1 className="text-xl font-bold mb-3 ml-3 myfont md:text-4xl">
+            <h1 className="text-xl font-bold mb-3  myfont md:text-4xl">
                             Featured Photos
                         </h1>
                 <div style={{backgroundImage: `url(${slides[currentIndex].url})`}} className="w-full h-full rounded-2xl bg-center bg-cover duration-500"></div>
@@ -66,6 +68,14 @@ export default function Homepage() {
                 ))}
               </div>
             </div>
+          </div>
+
+          <div>
+            <GetImages />
+          </div>
+
+          <div className="mt-5">
+            <Footer />
           </div>
         </div>
 
