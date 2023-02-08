@@ -5,12 +5,13 @@ import Header from './Header'
 import Login from './pages/Login'
 import Registration from './pages/Registration'
 import Homepage from './pages/Homepage'
+import GetImages from './GetImages'
 
 function App() {
 
   return (
     <div>
-     <Homepage />
+     <GetImages />
     </div>
   )
 }

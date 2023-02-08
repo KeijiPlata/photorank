@@ -5,6 +5,12 @@
 .myfont{
   font-family: 'Silkscreen', cursive;
 }
+img{
+  max-width: 100%;
+}
+body{
+  @apply bg-slate-50;
+}
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
