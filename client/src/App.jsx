@@ -6,12 +6,13 @@ import Login from './pages/Login'
 import Registration from './pages/Registration'
 import Homepage from './pages/Homepage'
 import GetImages from './GetImages'
+import Profilepage from './pages/Profilepage'
 
 function App() {
 
   return (
     <div>
-     <Homepage />
+     <Profilepage />
     </div>
   )
 }
