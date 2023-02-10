@@ -33,7 +33,7 @@ export default function Header() {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                     <a href="/">
-                        <h3 className="text-2xl font-bold text-purple-600 myfont">
+                        <h3 className="text-3xl font-bold text-purple-600 myfont">
                             Photorank
                         </h3>
                     </a>
