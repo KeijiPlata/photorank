@@ -21,7 +21,7 @@ export default function Profilepage(){
         </div>
         <div className="relative grid place-items-center">
             <div className="absolute md:left-64 lg:left-80 md:-bottom-20 -bottom-40 md:mx-5 md:text-left text-center">
-            <h2 className="lg:text-4xl text-3xl font-bold">Keiji Plata <span className="lg:text-2xl text-xl text-gray-400">Rank #1</span></h2>
+            <h2 className="lg:text-4xl text-3xl font-bold">Andrew De Guzman <span className="lg:text-2xl text-xl text-gray-400">Rank #1</span></h2>
             <h3 className="text-xl font-bold text-gray-400">Cainta, Rizal</h3>
             </div>
         </div>
