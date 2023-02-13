@@ -33,7 +33,7 @@ export default function Profilepage(){
     </div>
 
     {/* Photo gallery*/}
-    <div className="mt-40">
+    <div className="mt-60 md:mt-32">
         <h2 className="text-center text-4xl font-bold mb-14">Photos</h2>
     <div className="grid grid-cols-3 gap-3  place-content-center place-items-center ">
         <div className="bg-red-500"><h2>1</h2></div>
