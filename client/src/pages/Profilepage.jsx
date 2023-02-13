@@ -36,20 +36,47 @@ export default function Profilepage(){
     {/* Photo gallery*/}
     <div className="mt-60 md:mt-32">
         <h2 className="text-center text-4xl font-bold mb-14">Photos</h2>
-    <div className="grid grid-cols-3 gap-3  place-content-center place-items-center ">
-        <div className="bg-red-500"><h2>1</h2></div>
-        <div className="bg-red-500"><h2>2</h2></div>
-        <div className="bg-red-500"><h2>3</h2></div>
-        <div className="bg-red-500"><h2>4</h2></div>
-        <div className="bg-red-500"><h2>5</h2></div>
-        <div className="bg-red-500"><h2>6</h2></div>
-        <div className="bg-red-500"><h2>7</h2></div>
-        <div className="bg-red-500"><h2>8</h2></div>
-        <div className="bg-red-500"><h2>9</h2></div>
+    <div className="grid md:grid-cols-3 sm:grid-rows-1 gap-2 place-content-center md:m-5 sm:m-2">
+        <div className="bg-red-500"><div style={{ 
+      backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
+    }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
+        <div className="bg-red-500"><div style={{ 
+      backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
+    }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
+          <div className="bg-red-500"><div style={{ 
+      backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
+    }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
+          <div className="bg-red-500"><div style={{ 
+      backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
+    }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
+          <div className="bg-red-500"><div style={{ 
+      backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
+    }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
+         <div className="bg-red-500"><div style={{ 
+      backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
+    }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
+          <div className="bg-red-500"><div style={{ 
+      backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
+    }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
+          <div className="bg-red-500"><div style={{ 
+      backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
+    }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
+          <div className="bg-red-500"><div style={{ 
+      backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
+    }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
+     <div className="bg-red-500"><div style={{ 
+      backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
+    }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
+     <div className="bg-red-500"><div style={{ 
+      backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
+    }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
+     <div className="bg-red-500"><div style={{ 
+      backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
+    }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
     </div>
     </div>
 
-    <div className="mt-56">
+    <div className="lg:mt-16 md:mt-9">
     <Footer />
     </div>
         
