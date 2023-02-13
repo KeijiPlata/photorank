@@ -13,11 +13,12 @@ export default function Profilepage(){
         {/* Profile picture and name */}
         <div className='max-w-[1600px] md:h-[600px] h-[400px] w-full m-auto py-10 px-4 relative'>
       <div style={{ 
-      backgroundImage: `url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80")` 
+      backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
     }} className='w-full h-full bg-cover bg-center relative grid place-items-center'>
-            <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80" alt="Profile" 
-            className="lg:w-64 lg:h-64 w-44 h-44 md:w-48 md:h-48 absolute rounded-full border-solid border-4 border-slate-50 md:-bottom-32 -bottom-20 md:left-16"/>
 
+    <div style={{ 
+      backgroundImage: `url("https://images.unsplash.com/photo-1650378915828-e26d52007540?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80")` 
+    }} className='lg:w-64 lg:h-64 w-44 h-44 md:w-48 md:h-48 bg-cover bg-center absolute rounded-full border-solid border-4 border-slate-50 md:-bottom-32 -bottom-20 md:left-16'></div>
             
         </div>
         <div className="relative grid place-items-center">
