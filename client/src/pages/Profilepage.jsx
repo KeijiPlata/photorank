@@ -36,64 +36,64 @@ export default function Profilepage(){
     {/* Photo gallery*/}
     <div className="mt-60 md:mt-32">
         <h2 className="text-center md:text-4xl text-3xl myfont font-bold md:mb-14 mb-8">Photos</h2>
-    <div className="grid md:grid-cols-3 sm:grid-rows-1 gap-2 place-content-center md:m-5 sm:m-2 relative">
+    <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-rows-1 gap-2 place-content-center md:m-5 sm:m-2 relative">
         <div className="relative group">
-          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
+          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"><p className="text-white text-lg font-bold m-5">Night Sky</p></div>
           <div style={{ 
       backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
     }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
         <div className="relative group">
-          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
+          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"><p className="text-white text-lg font-bold m-5">Night Sky</p></div>
           <div style={{ 
       backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
     }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
           <div className="relative group">
-          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
+          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"><p className="text-white text-lg font-bold m-5">Night Sky</p></div>
           <div style={{ 
       backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
     }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
           <div className="relative group">
-          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
+          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"><p className="text-white text-lg font-bold m-5">Night Sky</p></div>
           <div style={{ 
       backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
     }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
           <div className="relative group">
-          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
+          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"><p className="text-white text-lg font-bold m-5">Night Sky</p></div>
           <div style={{ 
       backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
     }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
          <div className="relative group">
-          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
+          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"><p className="text-white text-lg font-bold m-5">Night Sky</p></div>
           <div style={{ 
       backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
     }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
           <div className="relative group">
-          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
+          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"><p className="text-white text-lg font-bold m-5">Night Sky</p></div>
           <div style={{ 
       backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
     }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
           <div className="relative group">
-          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
+          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"><p className="text-white text-lg font-bold m-5">Night Sky</p></div>
           <div style={{ 
       backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
     }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
           <div className="relative group">
-          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
+          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"><p className="text-white text-lg font-bold m-5">Night Sky</p></div>
           <div style={{ 
       backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
     }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
      <div className="relative group">
-          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
+          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"><p className="text-white text-lg font-bold m-5">Night Sky</p></div>
           <div style={{ 
       backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
     }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
      <div className="relative group">
-          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
+          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"><p className="text-white text-lg font-bold m-5">Night Sky</p></div>
           <div style={{ 
       backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
     }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
      <div className="relative group">
-          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
+          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"><p className="text-white text-lg font-bold m-5">Night Sky</p></div>
           <div style={{ 
       backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
     }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
