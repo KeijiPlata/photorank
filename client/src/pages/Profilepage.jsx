@@ -35,7 +35,7 @@ export default function Profilepage(){
 
     {/* Photo gallery*/}
     <div className="mt-60 md:mt-32">
-        <h2 className="text-center md:text-4xl text-3xl myfont font-bold md:mb-14 mb-8">Photos</h2>
+        <h2 className="text-center md:text-4xl text-3xl myfont font-bold md:mb-14 mb-8">Photo Gallery</h2>
     <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-rows-1 gap-2 place-content-center md:m-5 sm:m-2 relative">
         <div className="relative group">
           <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity cursor-pointer"><p className="text-white text-lg font-bold m-5">Night Sky</p></div>
