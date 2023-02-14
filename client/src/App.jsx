@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div>
-    <Profilepage />
+    <Homepage />
     </div>
   )
 }
