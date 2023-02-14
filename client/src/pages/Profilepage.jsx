@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../Header";
 import Footer from "../Footer";
 import { BiHeart } from "react-icons/bi"
 
 export default function Profilepage(){
-     
+     const [likes, setLikes] = useState(6942)
+
+     const handleClick = () => {
+      if(likes === 6942){
+        setLikes(previousLikes => previousLikes + 1)
+      }
+      else{
+        setLikes(previousLikes => previousLikes - 1)
+      }
+      
+
+     }
+
     return (
         <>
             {/* Navigation bar */}
@@ -28,8 +40,8 @@ export default function Profilepage(){
             </div>
         </div>
         <div className="relative grid place-items-center -bottom-44 md:place-items-end md:-bottom-2 md:right-20">
-            <BiHeart className="md:text-5xl text-4xl"/>
-            <h3 className="md:text-xl lg:text-lg font-bold text-gray-400">999k</h3>
+            <BiHeart className="md:text-5xl text-4xl cursor-pointer" onClick={handleClick}/>
+            <h3 className="md:text-xl lg:text-lg font-bold text-gray-400">{likes}</h3>
         </div>
     </div>
 
@@ -37,17 +49,20 @@ export default function Profilepage(){
     <div className="mt-60 md:mt-32">
         <h2 className="text-center md:text-4xl text-2xl myfont font-bold md:mb-14 mb-8">Photo Gallery</h2>
     <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-2 place-content-center md:m-5 sm:m-3 relative">
+
         <div className="relative group">
+        <a href="https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" target="_blank">
           <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity cursor-pointer"><p className="text-white text-lg font-bold m-5">Night Sky</p></div>
           <div style={{ 
       backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
-    }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
+    }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></a></div>
 
         <div className="relative group">
+          <a href="https://images.unsplash.com/photo-1674592309639-39067f6a8111?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80" target="_blank">
           <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity cursor-pointer"><p className="text-white text-lg font-bold m-5">Beach</p></div>
           <div style={{ 
       backgroundImage: `url("https://images.unsplash.com/photo-1674592309639-39067f6a8111?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80")` 
-    }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></div>
+    }} className='lg:h-96 md:w-full w-screen md:h-56 h-96 bg-cover bg-center'></div></a></div>
 
           <div className="relative group">
           <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity cursor-pointer"><p className="text-white text-lg font-bold m-5">Huge Mountain</p></div>
