@@ -7,12 +7,13 @@ import Registration from './pages/Registration'
 import Homepage from './pages/Homepage'
 import GetImages from './GetImages'
 import Profilepage from './pages/Profilepage'
+import Rankingpage from './pages/Rankingpage'
 
 function App() {
 
   return (
     <div>
-     <Profilepage />
+    <Profilepage />
     </div>
   )
 }
