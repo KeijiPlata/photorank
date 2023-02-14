@@ -1,9 +1,6 @@
 import React from "react";
 import ItemsContainer from "./ItemsContainer";
 
-
-
-
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
@@ -36,7 +33,7 @@ const Footer = () => {
       >
         <span>© 2023  All rights reserved.</span>
         <span>Terms · Privacy Policy</span>
-        {/* <SocialIcons Icons={Icons} /> */}
+    
       </div>
     </footer>
   );
