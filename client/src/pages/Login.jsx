@@ -61,9 +61,9 @@ export default function Login() {
                     <div className="mt-4 text-grey-600">
                         You don't have an account?{" "}
                         <span>
-                            <a className="text-purple-600 hover:underline" href="#">
+                            <Link className="text-purple-600 hover:underline" to="/Registration">
                                 Sign up
-                            </a>
+                            </Link>
                         </span>
                     </div>
                     <div className="flex items-center w-full my-4">

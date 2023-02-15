@@ -4,7 +4,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
 
 const navigation = [
-  { name: 'Home', href: '/homepage', current: true },
+  { name: 'Home', href: '/homepage', current: false },
   { name: 'Ranking', href: '/rankingpage', current: false },
   { name: 'Profile', href: '/profilepage', current: false }
 ]
