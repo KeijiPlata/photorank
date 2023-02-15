@@ -13,28 +13,32 @@ export default function Profilepage(){
       else{
         setLikes(previousLikes => previousLikes - 1)
       }
-      
-
      }
+
+     function profileLink() {
+      window.location.href = "https://images.unsplash.com/photo-1650378915828-e26d52007540?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80";
+    }
+
+    function backgroundLink() {
+      window.location.href = "https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80";
+    }
 
     return (
         <>
-            {/* Navigation bar */}
-            <Header />
-        
+        <Header />
         {/* Profile picture and name */}
         <div className='max-w-[1600px] md:h-[600px] h-[400px] w-full m-auto py-10  relative'>
-          <a href="https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" target="_blank">
+      
       <div style={{ 
       backgroundImage: `url("https://images.unsplash.com/photo-1675410200389-903e50c46cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")` 
-    }} className='w-full h-full bg-cover bg-center relative grid place-items-center cursor-pointer'>
-
-        <a href="https://images.unsplash.com/photo-1650378915828-e26d52007540?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" target="_blank">
+    }} className='w-full h-full bg-cover bg-center relative grid place-items-center cursor-pointer' onClick={backgroundLink}>
+      
+        
     <div style={{ 
       backgroundImage: `url("https://images.unsplash.com/photo-1650378915828-e26d52007540?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80")` 
-    }} className='lg:w-64 lg:h-64 w-40 h-40 md:w-48 md:h-48 bg-cover bg-center absolute rounded-full border-solid border-4 border-slate-50 md:-bottom-32 -bottom-20 md:left-16 cursor-pointer'></div></a>
-            
-        </div></a>
+    }} className='lg:w-64 lg:h-64 w-40 h-40 md:w-48 md:h-48 bg-cover bg-center absolute rounded-full border-solid border-4 border-slate-50 md:-bottom-32 -bottom-20 md:left-16 cursor-pointer' onClick={profileLink}></div>
+          
+        </div>
         <div className="relative grid place-items-center">
             <div className="absolute md:left-64 lg:left-80 md:-bottom-20 -bottom-40 md:mx-5 md:text-left text-center">
             <h2 className="lg:text-4xl md:text-3xl text-2xl font-bold">Keiji Plata <span className="lg:text-2xl md:text-xl text-lg text-gray-400">Rank #1</span></h2>

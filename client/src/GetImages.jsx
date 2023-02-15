@@ -7,7 +7,7 @@ export default function GetImages() {
   useEffect(() => {
     const fetchImages = async () => {
       const response = await fetch(
-        `https://api.unsplash.com/photos?client_id=5tsR0Q7BoBP9T7PgpoqeYi-Om1KktDHVkUHQUwUxsdA`
+        `https://api.unsplash.com/photos/random?count=21&client_id=5tsR0Q7BoBP9T7PgpoqeYi-Om1KktDHVkUHQUwUxsdA`
       )
       const data = await response.json()
       console.log(data)
