@@ -31,7 +31,6 @@ export default function Image(props) {
             </div></a>
             <div>
                 <ul className='text-slate-600 text-sm text-right'>
-                    {/* <li><a href={`https://instagram.com/${props.user.instagram_username}`} className='underline'>Instagram</a></li> */}
                     <li className="text-center mt-3"><BiHeart className="md:text-3xl text-4xl cursor-pointer mx-auto text-black" onClick={handleClick}/></li>
                     <li className="mx-auto text-center">{likes1}</li>
                 </ul>
