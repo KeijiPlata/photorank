@@ -8,13 +8,22 @@ import Homepage from './pages/Homepage'
 import GetImages from './GetImages'
 import Profilepage from './pages/Profilepage'
 import Rankingpage from './pages/Rankingpage'
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
 function App() {
 
   return (
-    <div>
-    <Rankingpage />
-    </div>
+    
+    <Router>
+    <Routes>
+    <Route exact path='/' element={<Login />} />
+    <Route path='/homepage' element={<Homepage />} />
+    <Route path='/rankingpage' element={<Rankingpage />} />
+    <Route path='/profilepage' element={<Profilepage />} />
+    <Route path='/registration' element={<Registration />} />
+    </Routes>
+    </Router>
+    
   )
 }
 

@@ -6,9 +6,7 @@ import { FaCrown } from "react-icons/fa";
 export default function Rankingpage() {
   return (
     <>
-      {/* Navigation bar */}
-      <Header />
-
+    <Header />
       <div className="grid grid-rows-3 grid-flow-col justify-center justify-items-center mt-10">
         <div className="row-start-2 row-span-2">
           <a href="https://unsplash.com/@mannyvt" target="_blank">

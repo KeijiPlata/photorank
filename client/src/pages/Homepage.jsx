@@ -44,9 +44,7 @@ export default function Homepage() {
 
     return (
         <div>
-            <div>
-            <Header />
-            </div>
+          <Header />
           <div>
           
             <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group'>
