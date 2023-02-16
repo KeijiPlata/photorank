@@ -16,11 +16,11 @@ function App() {
     
     <Router>
     <Routes>
-    <Route exact path='/' element={<Login />} />
-    <Route path='/homepage' element={<Homepage />} />
-    <Route path='/rankingpage' element={<Rankingpage />} />
-    <Route path='/profilepage' element={<Profilepage />} />
-    <Route path='/registration' element={<Registration />} />
+    <Route exact path='/photorank/' element={<Login />} />
+    <Route path='/photorank/homepage/' element={<Homepage />} />
+    <Route path='/photorank/rankingpage' element={<Rankingpage />} />
+    <Route path='/photorank/profilepage' element={<Profilepage />} />
+    <Route path='/photorank/registration' element={<Registration />} />
     </Routes>
     </Router>
     

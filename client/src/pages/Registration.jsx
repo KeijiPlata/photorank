@@ -45,7 +45,7 @@ export default function Registration() {
         <div>
             <div className="flex flex-col items-center min-h-screen pt-6 sm:justify-center sm:pt-0 bg-gray-50">
                 <div>
-                    <a href="/">
+                    <a href="/photorank/">
                         <h3 className="text-4xl font-bold text-purple-600 myfont">
                             Photorank
                         </h3>
@@ -121,7 +121,7 @@ export default function Registration() {
                     <div className="mt-4 text-grey-600">
                         Already have an account?{" "}
                         <span>
-                            <Link className="text-purple-600 hover:underline" to="/">
+                            <Link className="text-purple-600 hover:underline" to="/photorank/">
                                 Log in
                             </Link>
                         </span>

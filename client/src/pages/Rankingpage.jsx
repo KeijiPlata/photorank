@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Header";
 import Footer from "../Footer";
 import { FaCrown } from "react-icons/fa";
+import { Link } from 'react-router-dom'
 
 export default function Rankingpage() {
   return (
@@ -29,6 +30,7 @@ export default function Rankingpage() {
           </a>
         </div>
         <div className="row-end-3 row-span-2">
+        <Link to="/photorank/profilepage/" target="_blank">
           <FaCrown className="lg:text-6xl md:text-5xl text-3xl mx-auto md:mb-2 text-yellow-500" />
           <h2 className="text-center font-bold md:text-2xl text-lg myfont">
             1st
@@ -45,6 +47,7 @@ export default function Rankingpage() {
           <p className="text-center mt-1 md:text-xl text-sm text-gray-500">
             6942 likes
           </p>
+          </Link>
         </div>
         <div className="row-start-2 row-span-2">
           <a href="https://unsplash.com/@artofsinn" target="_blank">
