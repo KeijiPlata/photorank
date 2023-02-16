@@ -8,6 +8,7 @@ export default function Registration() {
         password: '',
       });
       const [error, setError] = useState('');
+      const [success, setSuccess] = useState('');
     
       const handleSubmit = (e) => {
         e.preventDefault();
@@ -34,7 +35,7 @@ export default function Registration() {
           password: '',
           
         });
-        setError('Successful');
+        setSuccess('Successful');
       };
     
       const handleChange = (e) => {
@@ -45,7 +46,7 @@ export default function Registration() {
         <div>
             <div className="flex flex-col items-center min-h-screen pt-6 sm:justify-center sm:pt-0 bg-gray-50">
                 <div>
-                    <a href="/">
+                    <a href="/photorank/">
                         <h3 className="text-4xl font-bold text-purple-600 myfont">
                             Photorank
                         </h3>
@@ -53,11 +54,20 @@ export default function Registration() {
                 </div>
                 <div className="w-full px-6 py-4 mt-6 overflow-hidden bg-white shadow-md sm:max-w-lg sm:rounded-lg">
                     <form onSubmit={handleSubmit}>
-                    {error && (
-        <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded my-4" role="alert">
-          {error}
-        </div>
-      )}
+                    {(success || error) && (
+                        <>
+                            {success ? (
+                            <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded my-4" role="alert">
+                                {success}
+                            </div>
+                            ) : (
+                            <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded my-4" role="alert">
+                                {error}
+                            </div>
+                            )}
+                        </>
+                        )}
+
                         <div>
                             <label
                                 htmlFor="name"
@@ -121,7 +131,7 @@ export default function Registration() {
                     <div className="mt-4 text-grey-600">
                         Already have an account?{" "}
                         <span>
-                            <Link className="text-purple-600 hover:underline" to="/">
+                            <Link className="text-purple-600 hover:underline" to="/photorank/">
                                 Log in
                             </Link>
                         </span>

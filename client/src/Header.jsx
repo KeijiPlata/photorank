@@ -4,9 +4,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
 
 const navigation = [
-  { name: 'Home', href: '/homepage', current: false },
-  { name: 'Ranking', href: '/rankingpage', current: false },
-  { name: 'Profile', href: '/profilepage', current: false }
+  { name: 'Home', href: '/photorank/homepage', current: false },
+  { name: 'Ranking', href: '/photorank/rankingpage', current: false },
+  { name: 'Profile', href: '/photorank/profilepage', current: false }
 ]
 
 function classNames(...classes) {
@@ -83,7 +83,7 @@ export default function Header() {
                       <Menu.Item>
                         {({ active }) => (
                           <Link
-                            to="/profilepage"
+                            to="/photorank/profilepage"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Your Profile
@@ -94,7 +94,7 @@ export default function Header() {
                       <Menu.Item>
                         {({ active }) => (
                           <Link
-                            to="/"
+                            to="/photorank"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Sign out
